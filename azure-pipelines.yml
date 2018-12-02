@@ -50,4 +50,4 @@ steps:
   displayname: 'Publish Artifact: drop'
   inputs: 
     Pathtopublish: '$(build.artifactstagingdirectory)'
-  condition: succeededOrfailed()  
+  condition: succeededOrfailed()
